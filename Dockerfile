@@ -7,5 +7,5 @@ COPY . .
 RUN mkdir -p /var/spool/courier
 RUN go install -v ./cmd/...
 
-EXPOSE 8080
+EXPOSE 8088
 ENTRYPOINT ["courier"]
